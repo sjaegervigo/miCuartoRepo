@@ -26,3 +26,8 @@ def get_superheroes_marvel():
 def get_cursos():
     rows = ["Curso de Python", "Curso de Java", "Curso de JavaScript", "Curso de C++", "Curso de PHP","Curso de Docker"]
     return rows
+
+@app.get("/cursosMicrosoft")
+def get_cursos_microsoft():
+    rows = ["Curso de Python", "Curso de Java", "Curso de JavaScript", "Curso de C++", "Curso de PHP","Curso de Docker"]
+    return rows
